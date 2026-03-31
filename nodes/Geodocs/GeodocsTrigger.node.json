@@ -1,5 +1,5 @@
 {
-  "node": "n8n-nodes-geodocs.io.geodocsTrigger",
+  "node": "@geodocs/n8n-nodes.geodocsTrigger",
   "nodeVersion": "1.0",
   "codexVersion": "1.0",
   "categories": ["Productivity"],
