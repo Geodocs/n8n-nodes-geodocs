@@ -1,5 +1,9 @@
-credentials/
-nodes/
+/credentials/
+/nodes/
 tsconfig.json
+jest.config.js
 node_modules/
 .git/
+**/*.spec.ts
+**/*.spec.js
+**/*.spec.d.ts

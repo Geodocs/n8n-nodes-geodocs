@@ -1,6 +1,6 @@
 {
-  "name": "n8n-nodes-geodocs",
-  "version": "1.0.4",
+  "name": "n8n-nodes-geodocs.io",
+  "version": "1.0.5",
   "description": "Official n8n node for Geodocs — GIS project management platform",
   "keywords": [
     "n8n-community-node-package",
@@ -11,6 +11,14 @@
     "webhooks"
   ],
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Geodocs/n8n-nodes-geodocs.git"
+  },
+  "homepage": "https://github.com/Geodocs/n8n-nodes-geodocs#readme",
+  "bugs": {
+    "url": "https://github.com/Geodocs/n8n-nodes-geodocs/issues"
+  },
   "main": "dist/nodes/Geodocs/GeodocsTrigger.node.js",
   "n8n": {
     "n8nNodesApiVersion": 1,
