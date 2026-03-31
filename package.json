@@ -1,0 +1,41 @@
+{
+  "name": "n8n-nodes-geodocs",
+  "version": "1.0.4",
+  "description": "Official n8n node for Geodocs — GIS project management platform",
+  "keywords": [
+    "n8n-community-node-package",
+    "n8n",
+    "geodocs",
+    "gis",
+    "project-management",
+    "webhooks"
+  ],
+  "license": "MIT",
+  "main": "dist/nodes/Geodocs/GeodocsTrigger.node.js",
+  "n8n": {
+    "n8nNodesApiVersion": 1,
+    "credentials": [
+      "dist/credentials/GeodocsApi.credentials.js"
+    ],
+    "nodes": [
+      "dist/nodes/Geodocs/GeodocsTrigger.node.js",
+      "dist/nodes/Geodocs/GeodocsSearch.node.js"
+    ]
+  },
+  "scripts": {
+    "build": "tsc && cp nodes/Geodocs/geodocs.png nodes/Geodocs/*.node.json dist/nodes/Geodocs/",
+    "test": "jest",
+    "prepublishOnly": "npm run build"
+  },
+  "devDependencies": {
+    "@types/jest": "^30.0.0",
+    "@types/node": "^25.5.0",
+    "jest": "^30.3.0",
+    "n8n-workflow": "^1.0.0",
+    "ts-jest": "^29.4.6",
+    "typescript": "^5.0.0"
+  },
+  "peerDependencies": {
+    "n8n-workflow": ">=1.0.0"
+  }
+}

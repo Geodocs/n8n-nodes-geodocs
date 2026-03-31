@@ -1,0 +1,5 @@
+credentials/
+nodes/
+tsconfig.json
+node_modules/
+.git/

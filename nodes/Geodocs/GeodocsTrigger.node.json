@@ -1,0 +1,13 @@
+{
+	"node": "n8n-nodes-geodocs.geodocsTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Productivity"],
+	"resources": {
+		"primaryDocumentation": [
+			{
+				"url": "https://docs.geodocs.io/integrations/n8n"
+			}
+		]
+	}
+}
