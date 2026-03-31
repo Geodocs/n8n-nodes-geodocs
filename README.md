@@ -1,4 +1,4 @@
-# @geodocs/n8n-nodes
+# @geodocs/n8n-nodes-geodocs
 
 [n8n](https://n8n.io/) Official node for [Geodocs](https://geodocs.io/) — GIS project management platform.
 
@@ -12,7 +12,7 @@ This package provides two nodes:
 In your n8n instance, go to **Settings > Community Nodes > Install** and enter:
 
 ```
-@geodocs/n8n-nodes
+@geodocs/n8n-nodes-geodocs
 ```
 
 ## Credentials

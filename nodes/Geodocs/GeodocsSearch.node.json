@@ -1,5 +1,5 @@
 {
-  "node": "@geodocs/n8n-nodes.geodocsFetch",
+  "node": "@geodocs/n8n-nodes-geodocs.geodocsFetch",
   "nodeVersion": "1.0",
   "codexVersion": "1.0",
   "categories": ["Productivity"],
