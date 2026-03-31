@@ -5,7 +5,7 @@
 This package provides two nodes:
 
 - **Geodocs Trigger** — starts a workflow when Geodocs events occur (folder, assignment, expense, budget lifecycle events)
-- **Geodocs Search** — search and lookup folders, assignments, expenses, and budgets
+- **Geodocs Fetch** — search and lookup folders, assignments, expenses, and budgets
 
 ## Installation
 
@@ -28,7 +28,7 @@ You need a Geodocs Personal Access Token (PAT) to use these nodes.
 | Node            | Required Scope                                                                             |
 | --------------- | ------------------------------------------------------------------------------------------ |
 | Geodocs Trigger | `webhooks:manage`                                                                          |
-| Geodocs Search  | `folders:read`, `assignments:read`, `expenses:read`, or `budgets:read` (matching resource) |
+| Geodocs Fetch   | `folders:read`, `assignments:read`, `expenses:read`, or `budgets:read` (matching resource) |
 
 ## Trigger Events
 
