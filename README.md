@@ -1,6 +1,6 @@
 # n8n-nodes-geodocs.io
 
-[n8n](https://n8n.io/) Official community node for [Geodocs](https://geodocs.io/) — GIS project management platform.
+[n8n](https://n8n.io/) Official node for [Geodocs](https://geodocs.io/) — GIS project management platform.
 
 This package provides two nodes:
 
@@ -17,7 +17,7 @@ n8n-nodes-geodocs.io
 
 ## Credentials
 
-You need a Geodocs Personal Access Token (PAT) to use these nodes.
+You need a Geodocs Personal Access Token (PAT) to use these nodes. More info at [Geodocs Integrations](https://geodocs.io/integrations).
 
 1. In Geodocs, go to **Settings > API Tokens**
 2. Create a new token with the required scopes (see below)

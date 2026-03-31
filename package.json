@@ -1,6 +1,6 @@
 {
   "name": "n8n-nodes-geodocs.io",
-  "version": "1.0.5",
+  "version": "1.0.7",
   "description": "Official n8n node for Geodocs — GIS project management platform",
   "keywords": [
     "n8n-community-node-package",
@@ -15,7 +15,7 @@
     "type": "git",
     "url": "https://github.com/Geodocs/n8n-nodes-geodocs.git"
   },
-  "homepage": "https://github.com/Geodocs/n8n-nodes-geodocs#readme",
+  "homepage": "https://geodocs.io",
   "bugs": {
     "url": "https://github.com/Geodocs/n8n-nodes-geodocs/issues"
   },
@@ -39,7 +39,7 @@
     "@types/jest": "^30.0.0",
     "@types/node": "^25.5.0",
     "jest": "^30.3.0",
-    "n8n-workflow": "^1.0.0",
+    "n8n-workflow": "^2.13.1",
     "ts-jest": "^29.4.6",
     "typescript": "^5.0.0"
   },
