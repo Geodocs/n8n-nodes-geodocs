@@ -1,6 +1,6 @@
 {
   "name": "@geodocs/n8n-nodes-geodocs",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Official n8n node for Geodocs — GIS project management platform",
   "keywords": [
     "n8n-community-node-package",
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "@types/jest": "~30.0.0",
-    "@types/node": "~24.13.2",
+    "@types/node": "~24.13.3",
     "jest": "~30.4.2",
     "n8n-workflow": "~2.16.0",
     "ts-jest": "~29.4.11",
